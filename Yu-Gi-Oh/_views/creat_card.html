@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset_css.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form.style.css">
+    <title>YO-GI-OH</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation_bar">
+            <a href="">
+                <img class="navigation_logo" src="/img/YUGAME.png" alt="">
+            </a>
+
+            <ul class="navigation_bar__links">
+                <!-- <li>my profil</li> -->
+                <!-- <li>logout</li> -->
+                <li>Влизане</li>
+                <li>Регистрация</li>
+            </ul>
+        </nav>
+        <div class="img_section">
+            <div class="search_conteiner marginNav">
+                <input type="text">
+                <i class="fas fa-search search"></i>
+            </div>
+            <!-- <img class="navigation_logo_test" src="/img/YUGAME.png" alt=""> -->
+            <!-- <h2 class="img_section__title home_heading">YU-GI-OH</h2> -->
+            <img class="logo" src="/img/logo.png" alt="">
+
+            <i class="fas fa-shopping-basket car marginNav"></i>
+        </div>
+        <div class="mainSection__navigation">
+            <ul class="mainSection__navigation__link">
+                <li class="mainSection__navigation__links">Начало</li>
+                <li class="mainSection__navigation__links">Продукти</li>
+                <li class="mainSection__navigation__links">За нас</li>
+            </ul>
+        </div>
+    </header>
+<body>
+    <main class="mainSection">
+        <div class="accaount">
+            <h2>Create Product</h2>
+            <form class="card__form" action="">
+                <label for="nameProduct">Name of product</label>
+                <input type="text" id="nameProduct">
+
+                <label for="productDescription">Product Description</label>
+                <textarea name="productDescription" id="productDescription" cols="25" rows="5"></textarea>
+
+                <label for="price">Price of product</label>
+                <input type="text" id="price">
+
+                <label for="imgUrl">Img File</label>
+                <input type="file" id="imgUrl" accept="image/*">
+
+                <label for="typeOfProduct">Type of Product</label>
+                <select name="typeOfProduct" id="typeOfProduct"> 
+                    <option value="map">Map</option>
+                    <option value="card">Card</option>
+                    <option value="others">Others</option>
+                </select>
+
+                
+
+                <label for="typeOfPost">Type of Post</label>
+                <select name="typeOfPost" id="typeOfPost"> 
+                    <option value="Upcoming">Upcoming</option>
+                    <option value="ForSeal">For seal</option>
+                    
+                </select>
+
+
+                
+
+              
+
+                <button class="submit_btn" type="submit">Create</button>
+            </form>
+
+        </div>
+
+
+
+
+    </main>
+</body>
+</html>
