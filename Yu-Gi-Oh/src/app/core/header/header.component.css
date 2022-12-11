@@ -83,7 +83,8 @@
     border-radius: 10px;
     margin-right: 20px;
     font-size: 20px;
-    color: #fe7e03;
+    /* color: #fe7e03; */
+    color: #189ab4;
     font-family: 'Abel', sans-serif;
     font-weight: bold;
 }

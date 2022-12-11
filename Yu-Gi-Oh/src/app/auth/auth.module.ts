@@ -4,6 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AuthRouterModule } from './auth-rout-module';
 import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -15,7 +16,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     AuthRouterModule,
-    RouterModule
+    ReactiveFormsModule
   ]
 })
 export class AuthModule { }

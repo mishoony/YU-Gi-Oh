@@ -1,15 +1,20 @@
 <div class="accaount">
            
-    <form class="accaount__form" action="">
+    <form class="accaount__form" action="" [formGroup]="registerFormGroup" (ngSubmit)="rgisterHandler()">
         <h2>REgister</h2>
+
         <label for="username">Username</label>
-        <input type="text" id="username">
+        <input  formControlName="username" type="text" id="username">
+
         <label for="email">Email</label>
-        <input type="text" id="email">
+        <input  formControlName="email" type="text" id="email">
+
         <label for="password">Password</label>
-        <input type="text" id="password">
+        <input  formControlName="password" type="text" id="password">
+
         <label for="Re-Password">Re-Password</label>
-        <input type="text" id="Re-Password">
+        <input  formControlName="rePassword" type="text" id="Re-Password">
+
         <button class="submit_btn" type="submit">Register</button>
     </form>
     

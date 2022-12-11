@@ -49,7 +49,8 @@ body{
     display: flex;
     gap: 1.2rem;
     margin-right:15px;
-    color: #fe7e03;
+    /* color: #fe7e03; */
+    color: #189ab4;
     font-size: 20px;
     font-family: 'Play', sans-serif;
 }
@@ -165,7 +166,8 @@ body{
 
 
 .new_cards__card__buyBtn{
-    background-color: #fe7e03;
+    /* background-color: #fe7e03; */
+    background-color: #189ab4;
     min-width: 100px;
     padding: 0.2rem;
     border-radius: 1rem;

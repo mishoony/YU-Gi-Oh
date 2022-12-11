@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { CreateProductComponent } from './create-product/create-product.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -13,7 +14,8 @@ import { CreateProductComponent } from './create-product/create-product.componen
     CreateProductComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule
   ],
 
   
